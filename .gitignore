@@ -11,11 +11,12 @@
 
 # testing
 /coverage
-/php/archive
-/php/testing
+/testing
 # production
 /client/build
 /build
+index.html
+app.js
 # misc
 .DS_Store
 .env.local
