@@ -17,12 +17,8 @@ export const AuthorizationProvider = ({children}) => {
             return <></>
         } else {
             if (authorized){
-                console.log("authorized")
                 return children
             } else {
-                console.log(authorized);
-                console.log(loading);
-                console.log(user);
                 return <Navigate to={"/"}/>
             }
         }
